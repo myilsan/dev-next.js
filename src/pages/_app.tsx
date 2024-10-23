@@ -1,27 +1,28 @@
+import GlobalLayout from "@/components/global-layout";
 import "@/styles/globals.css";
+import { NextPage } from "next";
 import type { AppProps } from "next/app";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import { ReactNode } from "react";
 
-export default function App({ Component, pageProps }: AppProps) {
-  const router = useRouter();
-  const onClickButton =()=>{
-    router.push("/test"); 
-  };
+type NextPageWithLayout = NextPage & {
+  // & 연산자는 두 개 이상의 타입의 공통된 부분을 합쳐 새로운 타입을 만드는 것
 
-  return(
+  getLayout: (page: ReactNode) => ReactNode;
+};
+
+export default function App({
+  Component,
+  pageProps,
+}: AppProps & { Component: NextPageWithLayout }) {
+  // 교집합으로 Componet 포함시킴
+  //console.log(Component.getLayout);
+
+  // ?? 연산자는 nullish coalescing operator라고 불리며, 왼쪽 값이 null 또는 undefined일 때 오른쪽 값을 반환합니다.
+  //nullish coalescing operator: ?? 연산자에 대한 더 자세한 설명이 필요하시면, JavaScript 문법 관련 자료를 참고해보세요.
+  const getLayout = Component.getLayout ?? ((page: ReactNode) => page);
+  return (
     <>
-    <header>
-      <Link href={"/"}>index</Link> &nbsp;
-      <Link href={"/search"}>search</Link>&nbsp;
-      <Link href={"/book/1"}>book</Link>&nbsp;
-      <div>
-        <button onClick={onClickButton}>/test 페이지로 이동</button>
-
-      </div>
-    </header>
-      <Component {...pageProps} />
+      <GlobalLayout>{getLayout(<Component {...pageProps} />)}</GlobalLayout>
     </>
-  ); 
-  
+  );
 }
