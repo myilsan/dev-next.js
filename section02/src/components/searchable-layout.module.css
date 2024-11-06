@@ -1,0 +1,21 @@
+.searchbar_contaniner {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px; /*아랫방향 여백설정*/
+}
+
+.searchbar_contaniner > input {
+  flex: 1;
+  padding: 15px; /**서치바 내부여백 설정 **/
+  border-radius: 5px; /**서치바 테두리 곡선설정**/
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.searchbar_contaniner > button {
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(37, 147, 255);
+  color: white;
+  cursor: pointer;
+}

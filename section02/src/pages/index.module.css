@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column; /*새로뱡향으로 배치함*/
+  gap: 20px;
+}
+
+.container h3 {
+  /* contaner 아래 속성 h3 */
+  margin-bottom: 0px;
+}

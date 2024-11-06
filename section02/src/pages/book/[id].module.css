@@ -1,0 +1,51 @@
+.contaniner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cover_img_container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  background-position: center;
+  background-repeat: no-repeat; /*이미지가 반복적으로 되지 않도록*/
+  background-size: cover; /*컨테이너 가늑차게 설정*/
+
+  position: relative;
+}
+
+.cover_img_container::before {
+  /*가상 요청 */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+}
+
+.cover_img_container > img {
+  z-index: 1;
+  max-height: 350px;
+  height: 100%;
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.subTitle {
+  color: gray;
+}
+
+.description {
+  background-color: rgb(245, 245, 245, 245);
+  padding: 15px;
+  line-height: 1.3;
+  white-space: pre-line; /*줄바꿈자동으로 */
+  border-radius: 10px;
+}

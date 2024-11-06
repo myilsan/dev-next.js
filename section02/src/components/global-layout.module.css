@@ -1,0 +1,31 @@
+.container {
+  background-color: white;
+  max-width: 600px; /*최대 가로 width*/
+  min-height: 100vh; /*세로로 가득채워줘라*/
+  margin: 0 auto; /* 가운데 정렬됨*/
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 0px 29px 0px;
+  padding: 0px 12px; /*수직 수평*/
+}
+
+.header {
+  height: 60px;
+  font-weight: bold; /*폰트굵기*/
+  font-size: 18px;
+
+  line-height: 70px; /*줄간격 높이*/
+}
+
+/* header 아래 a 테그 설정*/
+.header > a {
+  color: black;
+  text-decoration: none; /*밑줄제거*/
+}
+
+.main {
+  padding-top: 10px;
+}
+
+.footer {
+  padding: 100px 0px; /* 상하는 100px, 좌우 0px*/
+  color: gray;
+}
