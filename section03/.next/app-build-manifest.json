@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(with-searchbar)/search/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(with-searchbar)/search/layout.js"
+    ],
+    "/(with-searchbar)/search/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(with-searchbar)/search/page.js"
+    ],
+    "/book/[...id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/book/[...id]/page.js"
+    ]
+  }
+}

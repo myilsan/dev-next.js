@@ -1,0 +1,111 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
+exports.modules = {
+
+/***/ "./src/components/global-layout.module.css":
+/*!*************************************************!*\
+  !*** ./src/components/global-layout.module.css ***!
+  \*************************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"container\": \"global-layout_container__QT7Kw\",\n\t\"header\": \"global-layout_header__2UFtF\",\n\t\"main\": \"global-layout_main__Wes5y\",\n\t\"footer\": \"global-layout_footer__ajypf\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9nbG9iYWwtbGF5b3V0Lm1vZHVsZS5jc3MiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zZWN0aW9uMDIvLi9zcmMvY29tcG9uZW50cy9nbG9iYWwtbGF5b3V0Lm1vZHVsZS5jc3M/ZTczMSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJjb250YWluZXJcIjogXCJnbG9iYWwtbGF5b3V0X2NvbnRhaW5lcl9fUVQ3S3dcIixcblx0XCJoZWFkZXJcIjogXCJnbG9iYWwtbGF5b3V0X2hlYWRlcl9fMlVGdEZcIixcblx0XCJtYWluXCI6IFwiZ2xvYmFsLWxheW91dF9tYWluX19XZXM1eVwiLFxuXHRcImZvb3RlclwiOiBcImdsb2JhbC1sYXlvdXRfZm9vdGVyX19hanlwZlwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/global-layout.module.css\n");
+
+/***/ }),
+
+/***/ "./src/components/global-layout.tsx":
+/*!******************************************!*\
+  !*** ./src/components/global-layout.tsx ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ GlobalLayout)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ \"./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _global_layout_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./global-layout.module.css */ \"./src/components/global-layout.module.css\");\n/* harmony import */ var _global_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_global_layout_module_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction GlobalLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_global_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default().container),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n                className: (_global_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default().header),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {\n                    href: \"/\",\n                    children: \"CGV DEEP DIVE SPACE\"\n                }, void 0, false, {\n                    fileName: \"D:\\\\work\\\\onebite-next\\\\section02\\\\src\\\\components\\\\global-layout.tsx\",\n                    lineNumber: 9,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"D:\\\\work\\\\onebite-next\\\\section02\\\\src\\\\components\\\\global-layout.tsx\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: (_global_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default().main),\n                children: children\n            }, void 0, false, {\n                fileName: \"D:\\\\work\\\\onebite-next\\\\section02\\\\src\\\\components\\\\global-layout.tsx\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n                className: (_global_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default().footer),\n                children: \"제작 @ myilsan\"\n            }, void 0, false, {\n                fileName: \"D:\\\\work\\\\onebite-next\\\\section02\\\\src\\\\components\\\\global-layout.tsx\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"D:\\\\work\\\\onebite-next\\\\section02\\\\src\\\\components\\\\global-layout.tsx\",\n        lineNumber: 7,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9nbG9iYWwtbGF5b3V0LnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUE2QjtBQUVrQjtBQUVoQyxTQUFTRSxhQUFhLEVBQUVDLFFBQVEsRUFBMkI7SUFDeEUscUJBQ0UsOERBQUNDO1FBQUlDLFdBQVdKLDRFQUFlOzswQkFDN0IsOERBQUNNO2dCQUFPRixXQUFXSix5RUFBWTswQkFDN0IsNEVBQUNELGtEQUFJQTtvQkFBQ1EsTUFBSzs4QkFBSTs7Ozs7Ozs7Ozs7MEJBRWpCLDhEQUFDQztnQkFBS0osV0FBV0osdUVBQVU7MEJBQUdFOzs7Ozs7MEJBQzlCLDhEQUFDTztnQkFBT0wsV0FBV0oseUVBQVk7MEJBQUU7Ozs7Ozs7Ozs7OztBQUd2QyIsInNvdXJjZXMiOlsid2VicGFjazovL3NlY3Rpb24wMi8uL3NyYy9jb21wb25lbnRzL2dsb2JhbC1sYXlvdXQudHN4P2RlYTYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xyXG5pbXBvcnQgeyBSZWFjdE5vZGUgfSBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IHN0eWxlIGZyb20gXCIuL2dsb2JhbC1sYXlvdXQubW9kdWxlLmNzc1wiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gR2xvYmFsTGF5b3V0KHsgY2hpbGRyZW4gfTogeyBjaGlsZHJlbjogUmVhY3ROb2RlIH0pIHtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlLmNvbnRhaW5lcn0+XHJcbiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPXtzdHlsZS5oZWFkZXJ9PlxyXG4gICAgICAgIDxMaW5rIGhyZWY9XCIvXCI+Q0dWIERFRVAgRElWRSBTUEFDRTwvTGluaz5cclxuICAgICAgPC9oZWFkZXI+XHJcbiAgICAgIDxtYWluIGNsYXNzTmFtZT17c3R5bGUubWFpbn0+e2NoaWxkcmVufTwvbWFpbj5cclxuICAgICAgPGZvb3RlciBjbGFzc05hbWU9e3N0eWxlLmZvb3Rlcn0+7KCc7J6RIEAgbXlpbHNhbjwvZm9vdGVyPlxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsiTGluayIsInN0eWxlIiwiR2xvYmFsTGF5b3V0IiwiY2hpbGRyZW4iLCJkaXYiLCJjbGFzc05hbWUiLCJjb250YWluZXIiLCJoZWFkZXIiLCJocmVmIiwibWFpbiIsImZvb3RlciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/global-layout.tsx\n");
+
+/***/ }),
+
+/***/ "./src/pages/_app.tsx":
+/*!****************************!*\
+  !*** ./src/pages/_app.tsx ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_global_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/global-layout */ \"./src/components/global-layout.tsx\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/styles/globals.css */ \"./src/styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction App({ Component, pageProps }) {\n    // 교집합으로 Componet 포함시킴\n    //console.log(Component.getLayout);\n    // ?? 연산자는 nullish coalescing operator라고 불리며, 왼쪽 값이 null 또는 undefined일 때 오른쪽 값을 반환합니다.\n    //nullish coalescing operator: ?? 연산자에 대한 더 자세한 설명이 필요하시면, JavaScript 문법 관련 자료를 참고해보세요.\n    const getLayout = Component.getLayout ?? ((page)=>page);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_global_layout__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n            children: getLayout(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"D:\\\\work\\\\onebite-next\\\\section02\\\\src\\\\pages\\\\_app.tsx\",\n                lineNumber: 24,\n                columnNumber: 32\n            }, this))\n        }, void 0, false, {\n            fileName: \"D:\\\\work\\\\onebite-next\\\\section02\\\\src\\\\pages\\\\_app.tsx\",\n            lineNumber: 24,\n            columnNumber: 7\n        }, this)\n    }, void 0, false);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvX2FwcC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFzRDtBQUN4QjtBQVVmLFNBQVNDLElBQUksRUFDMUJDLFNBQVMsRUFDVEMsU0FBUyxFQUNvQztJQUM3QyxzQkFBc0I7SUFDdEIsbUNBQW1DO0lBRW5DLHNGQUFzRjtJQUN0Rix1RkFBdUY7SUFDdkYsTUFBTUMsWUFBWUYsVUFBVUUsU0FBUyxJQUFLLEVBQUNDLE9BQW9CQSxJQUFHO0lBQ2xFLHFCQUNFO2tCQUNFLDRFQUFDTCxpRUFBWUE7c0JBQUVJLHdCQUFVLDhEQUFDRjtnQkFBVyxHQUFHQyxTQUFTOzs7Ozs7Ozs7Ozs7QUFHdkQiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zZWN0aW9uMDIvLi9zcmMvcGFnZXMvX2FwcC50c3g/ZjlkNiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgR2xvYmFsTGF5b3V0IGZyb20gXCJAL2NvbXBvbmVudHMvZ2xvYmFsLWxheW91dFwiO1xuaW1wb3J0IFwiQC9zdHlsZXMvZ2xvYmFscy5jc3NcIjtcbmltcG9ydCB7IE5leHRQYWdlIH0gZnJvbSBcIm5leHRcIjtcbmltcG9ydCB0eXBlIHsgQXBwUHJvcHMgfSBmcm9tIFwibmV4dC9hcHBcIjtcbmltcG9ydCB7IFJlYWN0Tm9kZSB9IGZyb20gXCJyZWFjdFwiO1xuXG50eXBlIE5leHRQYWdlV2l0aExheW91dCA9IE5leHRQYWdlICYge1xuICAvLyAmIOyXsOyCsOyekOuKlCDrkZAg6rCcIOydtOyDgeydmCDtg4DsnoXsnZgg6rO17Ya165CcIOu2gOu2hOydhCDtlanss5Ag7IOI66Gc7Jq0IO2DgOyeheydhCDrp4zrk5zripQg6rKDKOq1kOynke2VqSlcbiAgZ2V0TGF5b3V0PzogKHBhZ2U6IFJlYWN0Tm9kZSkgPT4gUmVhY3ROb2RlOyAvL+uwmO2ZmOqwkuydhCBSZWFjdE5vZGUg66GcIOuwmO2ZmO2VnOuLpC5cbn07XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFwcCh7XG4gIENvbXBvbmVudCxcbiAgcGFnZVByb3BzLFxufTogQXBwUHJvcHMgJiB7IENvbXBvbmVudDogTmV4dFBhZ2VXaXRoTGF5b3V0IH0pIHtcbiAgLy8g6rWQ7KeR7ZWp7Jy866GcIENvbXBvbmV0IO2PrO2VqOyLnO2CtFxuICAvL2NvbnNvbGUubG9nKENvbXBvbmVudC5nZXRMYXlvdXQpO1xuXG4gIC8vID8/IOyXsOyCsOyekOuKlCBudWxsaXNoIGNvYWxlc2Npbmcgb3BlcmF0b3Lrnbzqs6Ag67aI66as66mwLCDsmbzsqr0g6rCS7J20IG51bGwg65iQ64qUIHVuZGVmaW5lZOydvCDrlYwg7Jik66W47Kq9IOqwkuydhCDrsJjtmZjtlanri4jri6QuXG4gIC8vbnVsbGlzaCBjb2FsZXNjaW5nIG9wZXJhdG9yOiA/PyDsl7DsgrDsnpDsl5Ag64yA7ZWcIOuNlCDsnpDshLjtlZwg7ISk66qF7J20IO2VhOyalO2VmOyLnOuptCwgSmF2YVNjcmlwdCDrrLjrspUg6rSA66CoIOyekOujjOulvCDssLjqs6DtlbTrs7TshLjsmpQuXG4gIGNvbnN0IGdldExheW91dCA9IENvbXBvbmVudC5nZXRMYXlvdXQgPz8gKChwYWdlOiBSZWFjdE5vZGUpID0+IHBhZ2UpO1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8R2xvYmFsTGF5b3V0PntnZXRMYXlvdXQoPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPil9PC9HbG9iYWxMYXlvdXQ+XG4gICAgPC8+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiR2xvYmFsTGF5b3V0IiwiQXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwiZ2V0TGF5b3V0IiwicGFnZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/_app.tsx\n");
+
+/***/ }),
+
+/***/ "./src/styles/globals.css":
+/*!********************************!*\
+  !*** ./src/styles/globals.css ***!
+  \********************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages.runtime.dev.js":
+/*!**********************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages.runtime.dev.js" ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "react/jsx-runtime":
+/*!************************************!*\
+  !*** external "react/jsx-runtime" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("./src/pages/_app.tsx")));
+module.exports = __webpack_exports__;
+
+})();
