@@ -1,4 +1,4 @@
-// File: D:\work\onebite-next\section03\src\app\(with-searchbar)\layout.tsx
+// File: D:\test\dev_next\section03\src\app\(with-searchbar)\layout.tsx
 import * as entry from '../../../../src/app/(with-searchbar)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
