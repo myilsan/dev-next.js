@@ -1,12 +1,12 @@
 import books from "@/mock/books.json";
 import BookItem from "@/components/book-item";
 
-export default function Page({
+export default async function Page({
   searchParams,
 }: {
-  searchParams: {
+  searchParams: Promise<{
     q?: string;
-  };
+  }>;
 }) {
   return (
     <div>
