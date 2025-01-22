@@ -1,6 +1,8 @@
 import BookItem from "@/components/book-item";
 import style from "./page.module.css";
 import books from "@/mock/books.json";
+import ClientComponent from "./client-component";
+import ServerComponent from "./server-component";
 
 export default function Home() {
   return (
@@ -17,6 +19,9 @@ export default function Home() {
           <BookItem key={book.id} {...book} />
         ))}
       </section>
+      <ClientComponent >
+        <ServerComponent /> {/*client compotent 로 변환되지 않게  children 로 전달 */}
+      </ClientComponent >
     </div>
   );
 }
