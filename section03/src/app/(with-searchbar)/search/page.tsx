@@ -8,6 +8,7 @@ export default async function Page({
     q?: string;
   }>;
 }) {
+  const params = await searchParams; // searchParams를 await로 처리
   return (
     <div>
       {books.map((book) => (
