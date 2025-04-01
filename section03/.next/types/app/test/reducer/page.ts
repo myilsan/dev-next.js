@@ -1,4 +1,4 @@
-// File: D:\git\github\dev-next.js\section03\src\app\test\reducer\page.tsx
+// File: D:\test\dev_next\section03\src\app\test\reducer\page.tsx
 import * as entry from '../../../../../src/app/test/reducer/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

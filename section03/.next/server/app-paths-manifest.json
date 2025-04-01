@@ -1,3 +1,5 @@
 {
-  "/test/reducer/page": "app/test/reducer/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/test/reducer/page": "app/test/reducer/page.js",
+  "/(with-searchbar)/page": "app/(with-searchbar)/page.js"
 }

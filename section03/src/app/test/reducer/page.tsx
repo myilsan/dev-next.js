@@ -11,14 +11,15 @@ import React, {  useReducer, useState } from "react";
 //action  - 요구의 내용
 
 const ACTION_TYPES = {
-    deposit : "deposit",
-    withdrow : "widhdraw"
+    deposit : "deposit", withdrow : "widhdraw"
+
 }
 
 interface DisAacton  {
-    type : string;
+    type : string; 
     payload : number;
 }
+
 
 const reducer = (state : number, action : DisAacton) => {
     //.. 
@@ -29,12 +30,12 @@ const reducer = (state : number, action : DisAacton) => {
             return state + action.payload;
         case ACTION_TYPES.withdrow :
             return state - action.payload;
-        default:
+        default:     
             return state;    
     }    
 };
 
-export default function Page(){
+export default function Page111(){
     const [number, setNumber]= useState(0);
     const [money, dispatch] = useReducer(reducer,0);
 
@@ -47,10 +48,14 @@ export default function Page(){
                 dispatch({type:ACTION_TYPES.deposit,payload : number});
             }}>입금 
             </button>
+
+
             <button
               onClick={()=>{
                 dispatch({type:ACTION_TYPES.withdrow,payload : number});
             }}>출금</button>
+
+            
         </div>
     )
 }
